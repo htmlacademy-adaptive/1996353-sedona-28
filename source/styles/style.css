@@ -2,6 +2,7 @@
   width: 320px;
   margin: 10px auto;
   outline: 2px solid orange;
+  background-color: rgb(229, 231, 224);
 }
 
 .main-header {
@@ -30,7 +31,11 @@
   padding: 90px 19px 85px;
   outline: 1px solid blue;
   background: url(../img/background-welcom.png);
-  /* background: url(../img/group-triangle.png); */
+}
+
+.first-view__group-triangle {
+
+  background: url(../img/group-triangle.png) no-repeat;
 }
 
 .first-view__image-image {
@@ -40,5 +45,28 @@
 .visually-hidden {
   display: none;
 }
+.impression__li {
+  list-style-type: none;
+}
 
+.visit-attractions__li--loc {
+  margin-left: -30px;
+  list-style-type: none;
+}
+
+.impression--loc {
+  margin-left: -30px;
+}
+
+.impression__radio--back {
+  width: 30px;
+  height: 30px;
+  background: url(../img/checkbox-area.png) no-repeat center;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  margin: 10px;
+  background: #f2f2f2 url(img/checkbox-area.png) no-repeat;
+}
 

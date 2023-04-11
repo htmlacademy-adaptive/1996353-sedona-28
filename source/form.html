@@ -16,6 +16,98 @@
 
     </nav>
   </header>
+  <main class="main-wrapper">
+    <div class="first-view__image">
+      <img src="img/sedona.png" alt="" class="first-view__image-image">
+      <div class="first-view__group-triangle"></div>
+    </div>
+    <div class="feedback">
+      <h3 class="feedback__h3">Оставьте свой отзыв</h3>
+      <p class="feedback__p">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </div>
+    <form action="#" method="post">
+      <div class="introduce-yourself">
+        <h3 clas="introduce introduce"> представьтесь:</h3>
+        <label class="label-form" for="name">имя:</label><br>
+        <input class="name-family" type="text" name="name" id="name"><br>
+        <label class="label-form" for="family">фамилия:</label><br>
+        <input class="name-family" type="text" name="family" id="family"><br>
+        <label class="label-form" for="patronymic">отчество:</label><br>
+        <input class="name-family" type="text" name="patronymic" id="patronymic"><br>
+      </div>
+      <div class="contact">
+        <h3 class="contact__h3 contact__h3__loc">Контактная информация:</h3>
+        <label for="phone" class="label-form">Контактный телефон*:</label><br>
+        <input type="tel" class="contact__field" name="tel" id="tel" placeholder="Введите телефон">
+        <span class="contact__icon"><img src="img/phone.png" alt="иконка телефона"></span><br>
+        <label for="email" class="label-form">Электронная почта*:</label><br>
+        <input type="email" class="contact__field" name="email" id="email" placeholder="Введите e-mail">
+        <span class="contact__icon"><img src="img/email.png" alt=""></span>
+      </div>
+      <div class="impression">
+        <h3 class="impression__h3">ВАше Общее впечатление:</h3>
+        <ul class="impression__ul">
+          <li class="impression__li impression--loc">
+            <span class="impression__radio--back"><input type="radio" class="impression__radio" name="inspire" id="plus" checked></span>
+
+            <label class="label-form" for="plus">Скорее положительное</label>
+          </li>
+          <li class="impression__li impression--loc">
+            <span class="impression__radio--back"><input class="impression__radio" type="radio"  name="inspire" id="minus"></span>
+
+            <label class="label-form" for="plus">Скорее отрицательное</label>
+          </li>
+          <li class="impression__li impression--loc">
+            <span class="impression__radio--back"><input type="radio" class="impression__radio" name="inspire" id="unclear"></span>
+            <label class="label-form" for="plus">Затрудняюсь ответить</label>
+          </li>
+        </ul>
+      </div>
+      <div class="visit-attractions">
+        <h3 class="visit-attractions__h3">посещенные достопримечательности:</h3>
+        <ul class="visit-attractions__ul visit-attractions__ul--log">
+          <li class="visit-attractions__li visit-attractions__li--loc">
+            <input type="checkbox" name="bridge" id="bridge" checked>
+            <label for="bridge" class="label-form">Мост Дьявола</label>
+          </li>
+          <li class="visit-attractions__li visit-attractions__li--loc">
+            <input type="checkbox" name="mount" id="mount" checked>
+            <label for="mount" class="label-form">Гора-Колокол</label>
+          </li>
+          <li class="visit-attractions__li visit-attractions__li--loc">
+            <input type="checkbox" name="park" id="park" checked>
+            <label for="park" class="label-form">Слайд-парк</label>
+          </li>
+          <li class="visit-attractions__li visit-attractions__li--loc">
+            <input type="checkbox" name="rocks" id="rocks">
+            <label for="rocks" class="label-form">Красные скалы</label>
+          </li>
+        </ul>
+      </div>
+      <div class="emotions emotions--loc">
+        <h3 class="emotions__h3 emotions__h3--loc">Опишите свои эмоции:</h3>
+        <div class="emotions__text">
+          <textarea name="emotions" id="emotions" cols="35" rows="10">Опишите подробно все свои восторги </textarea>
+        </div>
+      </div>
+      <div class="send-feedback send-feedback--loc">
+        <button class="button button-mobile" type="submit">отправить отзыв</button>
+      </div>
+    </form>
+  </main>
+  <footer class="footer">
+    <h3 class="footer-h3">#visitSEDONA</h3>
+    <ul class="icons-frame">
+      <li class="social-icons"><img class="visually-hidden" src="img/vk.svg" alt="иконка соцсети VK."></li>
+      <li class="social-icons"><img class="visually-hidden" src="img/telegram.svg" alt="иконка соцсети Telegramm"></li>
+      <li class="social-icons"><img class="visually-hidden" src="img/youtube.svg"  alt="иконка соцсети Youtube"></li>
+    </ul>
+    <div class="developer">
+      <p>Разработано</p>
+      <a href="htmlacademy.ru"><img src="img/htmlacademy.svg" width="20" height="20" alt=""></a>
+    </div>
+  </footer>
 
 </body>
 </html>
+
