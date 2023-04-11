@@ -1,0 +1,44 @@
+.page__body {
+  width: 320px;
+  margin: 10px auto;
+  outline: 2px solid orange;
+}
+
+.main-header {
+  display: block;
+  height: 56px;
+  width: 100%;
+  outline: 1px solid blue;
+}
+
+.main-nav__toggle-loc {
+  width: 23px;
+  height: 22px;
+  background: url(../img/icon-menu.svg);
+}
+
+.logo-sedona {
+  display: block;
+  margin: 0 auto;
+}
+
+.first-view__image {
+  display: block;
+  box-sizing: border-box;
+  width: 320px;
+  height: 389px;
+  padding: 90px 19px 85px;
+  outline: 1px solid blue;
+  background: url(../img/background-welcom.png);
+  /* background: url(../img/group-triangle.png); */
+}
+
+.first-view__image-image {
+  display: block;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+
