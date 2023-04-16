@@ -1,8 +1,17 @@
-.page__body {
+.page {
   width: 320px;
-  margin: 10px auto;
-  outline: 2px solid orange;
-  background-color: rgb(229, 231, 224);
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid rgb(21, 182, 34);
+  background-color: rgb(224, 231, 224);
+}
+
+.page__body {
+  width: 280px;
+  outline: 1px solid orange;
+  margin: auto;
 }
 
 .main-header {
@@ -26,6 +35,7 @@
 .first-view__image {
   display: block;
   box-sizing: border-box;
+
   width: 320px;
   height: 389px;
   padding: 90px 19px 85px;
@@ -61,7 +71,7 @@
 .impression__radio--back {
   width: 30px;
   height: 30px;
-  background: url(../img/checkbox-area.png) no-repeat center;
+  background: #b44141 url(../img/checkbox-area.png) no-repeat center;
 }
 
 input[type="radio"] {
