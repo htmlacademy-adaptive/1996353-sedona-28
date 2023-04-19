@@ -1,0 +1,82 @@
+.page {
+  width: 320px;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid rgb(21, 182, 34);
+  background-color: rgb(224, 231, 224);
+}
+
+.page__body {
+  width: 280px;
+  outline: 1px solid orange;
+  margin: auto;
+}
+
+.main-header {
+  display: block;
+  height: 56px;
+  width: 100%;
+  outline: 1px solid blue;
+}
+
+.main-nav__toggle-loc {
+  width: 23px;
+  height: 22px;
+  background: url(../img/icon-menu.svg);
+}
+
+.logo-sedona {
+  display: block;
+  margin: 0 auto;
+}
+
+.first-view__image {
+  display: block;
+  box-sizing: border-box;
+
+  width: 320px;
+  height: 389px;
+  padding: 90px 19px 85px;
+  outline: 1px solid blue;
+  background: url(../img/background-welcom.png);
+}
+
+.first-view__group-triangle {
+
+  background: url(../img/group-triangle.png) no-repeat;
+}
+
+.first-view__image-image {
+  display: block;
+}
+
+.visually-hidden {
+  display: none;
+}
+.impression__li {
+  list-style-type: none;
+}
+
+.visit-attractions__li--loc {
+  margin-left: -30px;
+  list-style-type: none;
+}
+
+.impression--loc {
+  margin-left: -30px;
+}
+
+.impression__radio--back {
+  width: 30px;
+  height: 30px;
+  background: #b44141 url(../img/checkbox-area.png) no-repeat center;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  margin: 10px;
+  background: #f2f2f2 url(img/checkbox-area.png) no-repeat;
+}
+
