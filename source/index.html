@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона 28</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo">
-        <img src="img/logo-sity-of-sedona.png" width="185" height="96" alt="логотип 'Sity of Sedona'" >
+        <img class="logo-sedona" src="img/logo-sity-of-sedona.png" width="185" height="96" alt="логотип 'Sity of Sedona'" >
       </a>
       <nav class="main__nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <button class="main-nav__toggle main-nav__toggle-loc" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__nav-wrapper">
-          <ul class="main-nav__list menu-list">
+          <ul class="main-nav__list menu-list visually-hidden">
             <li class="menu-list__item menu-list__item--active">
               <a href="index.html">Главная</a>
             </li>
@@ -30,10 +31,12 @@
       </nav>
     </header>
 
-    <main class="main-wrapper">
-      <h1 class="visually">Гостиницы Седоны.Район гор, которые были деревьями</h1>
+    <main class="main-container">
+      <h1 class="visually-hidden">Гостиницы Седоны.Район гор, которые были деревьями</h1>
       <section class="first-view">
         <div class="first-view__image">
+          <img src="img/welcome.png" alt="" class="first-view__image-image">
+          <div class="first-view__group-triangle"></div>
         </div>
         <h2 class="first_h2 first-fiew__h2">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</h2>
         <p class="causes5 first-view__p">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
